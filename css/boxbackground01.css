@@ -1,0 +1,39 @@
+div{
+	border: 1px solid pink;
+}
+#box1{
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	margin: 10% auto;
+}
+#box2{
+	width: 950px;
+	height: 450px;
+	background-color: blue;
+	margin: 25px;
+}
+#box3{
+	width: 900px;
+	height: 400px;
+	border-color: white;
+	background-color: rgb(200,191,231);
+	margin: 25px;
+}
+#box4{
+	width: 850px;
+	height: 350px;
+	border-color: white;
+	background-color: rgb(163,73,164);
+	margin: 25px;
+}
+#box5{
+	width: 770px;
+	height: 270px;
+	border:15px solid #9eb6ec;
+	border-right-color: #ff594f;
+	border-bottom-color: #ffa600;
+	border-left-color: #b3f842;
+	background-color: rgb(239,228,176);
+	margin: 25px;
+}
