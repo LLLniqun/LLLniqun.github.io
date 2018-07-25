@@ -1,0 +1,82 @@
+#box2{
+	font:25px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+p8{
+	position: fixed;
+	top: 115px;
+	width: 70px;
+	height: 70px;
+	/*line-height: 70px;*/
+	background-image: url(images05.jpg);
+	color: white;
+	text-align: center;
+}
+p9{
+	position: fixed;
+	top: 185px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-image: url(images06.jpg);
+	color: white;
+	text-align: center;
+}
+p10{
+	position: fixed;
+	top: 255px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-image: url(images07.jpg);
+	color: white;
+	text-align: center;
+}
+p11{
+	position: fixed;
+	top: 325px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-image: url(images08.jpg);
+	color: white;
+	text-align: center;
+}
+p12{
+	position: fixed;
+	top: 395px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	background-image: url(images09.jpg);
+	color: white;
+	text-align: center;
+}
+p13{
+	position: fixed;
+	top: 465px;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+p14{
+	position: fixed;
+	top: 535px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background-color: rgb(74,18,2);
+	color: white;
+}
+p15{
+	position: fixed;
+	top: 605px;
+	width: 70px;
+	height: 70px;
+	/*line-height: 70px;*/
+	background-color: white;
+	color: black;
+	text-align: center;
+}

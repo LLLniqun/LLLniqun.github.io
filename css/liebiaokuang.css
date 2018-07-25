@@ -1,0 +1,56 @@
+body{
+	background-color: pink;
+}
+div{
+	position: fixed;
+	left:18%;
+	top: 10%;
+}
+.toubu{
+	width: 1000px;
+	height: 100px;
+	border:1px solid pink;
+	background-image: url(images02.jpg);
+	background-color: rgb(153,217,234);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.zhongbu{
+	width: 900px;
+	height: 100px;
+	border:1px solid pink;
+	background-color: white;
+	line-height: 50px;
+	word-spacing: 2em;
+	margin-top: -16px;
+	margin-left: 99px;
+}
+.zuobian1{
+	width: 100px;
+	height: 98px;
+	border:1px solid white;
+	border-bottom-style: pink;
+	background-image: url(images12.jpg);
+	margin-top: -423px;
+}
+.zuobian2{
+	width: 100px;
+	height: 98.5px;
+	border:1px solid white;
+	background-image: url(images13.jpg);
+	margin-top: -14px;
+}
+.zuobian3{
+	width: 100px;
+	height: 98px;
+	border:1px solid white;
+	background-image: url(images14.jpg);
+	margin-top: -14px;
+}
+.zuobian4{
+	width: 100px;
+	height: 98.5px;
+	border:1px solid white;
+	background-image: url(images15.jpg);
+	margin-top: -14.5px;
+}

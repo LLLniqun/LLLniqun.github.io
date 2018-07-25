@@ -1,0 +1,46 @@
+#box3{
+	position: fixed;
+	top: 115px;
+	width: 210px;
+	height: 490px;
+	left: 85%;
+	background-color: white;
+}
+#h1{
+	font-size: 102px;
+	color: red;
+}
+#h2{
+	font-size: 30px;
+}
+p17{
+	font-size: 24px;
+	position: fixed;
+	top: 360px;
+	width: 210px;
+	height: 175px;
+	left: 85%;
+	text-align: center;
+	line-height: 175px;
+	background-image: url(doing01.gif);
+}
+p18{
+	font-size: 30px;
+	position: fixed;
+	top: 535px;
+	width: 210px;
+	height: 70px;
+	left: 85%;
+	text-align: center;
+	line-height: 70px;
+	background-color: rgb(255,0,0);
+}
+p19{
+	position: fixed;
+	top: 68px;
+	width: 94px;
+	height: 60px;
+	left: 88%;
+	background-image: url(images11.jpg);
+	background-repeat: no-repeat;
+}
