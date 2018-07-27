@@ -1,0 +1,16 @@
+strong{
+	font-weight: normal;
+	left: 30%;
+	position: fixed;
+	top: 93%;
+}
+logo{
+	display: block;
+	width: 341px;
+	padding-top: 104px;
+	height: 0px;
+	overflow: hidden;
+	background-image: url(images02.jpg);
+	position: fixed;
+	top: 90%;
+}
