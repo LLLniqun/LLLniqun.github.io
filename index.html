@@ -2,66 +2,124 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<meta name="viewpoint" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta name="description" content="LSgoing社区仅仅是想分享旅行者们的体验、心得，以及他们优美的图片供其他人了解还没看到的世界">
 <meta name="keywords" content="LSgoing,LS,旅行者,体验,心得,图片,世界">
-<title>LSgoing社区 首页-LLLniqun.github.io/ </title>
-<link rel="stylesheet" type="text/css" href="css/background01.css">
-<link rel="stylesheet" type="text/css" href="css/hengxiangdaohang right.css">
+<title>LSgoing网站 首页-LLLniqun.github.io/ </title>
+<link rel="stylesheet" type="text/css" href="css/hengxiangdaohang.css">
 <link rel="stylesheet" type="text/css" href="css/a.css">
 <style>
-.img2{
-	width: 50%;
+body{
+	background-color: rgb(153,217,234);
+}
+top{
+	display: block;
+	padding-top: 109px;
+	height: 0px;
+	overflow: hidden;
+	background-image: url(css/images02.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+#enter{
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-family: "微软雅黑";
+}
+.input{
+	border:1px solid pink;
+	border-radius: 10px;
+	background-color: #bce9e2;
+	font-family: "微软雅黑";
+}
+.sub{
+	width: 100px;
+	background-color: #bce9e2;
+	border:1px solid gray;
+	border-radius: 4px;
+	font-family: "微软雅黑";
+}
+.sub:hover{
+	color: gray;
+	text-decoration: underline;
+}
+#p1{
+	margin-top: 8px;
+}
+#middle{
+	display: inline-block;
+	position: relative;
+	left: 23%;
+}
+#img1{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+#left01{
+	width: 250px;
+	height: 300px;
+	background-color: white;
+	border:2px solid rgb(221,221,221);
+	border-radius: 4px;
+	padding: 0 25px;
 	position: fixed;
-	margin-top: 3.5%;
-	margin-left: 25%;
+	left: 0;
+	bottom: 50%;
+	margin-bottom: -150px;
+	text-align: center;
+}
+#left01 #p2{
+	color: rgb(65,65,65);
+}
+#left01 #p3 #touxiang{
+	margin-left: 8px;
+}
+#erweimadaohang{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	list-style-type: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#erweimadaohang li{
+	display: inline;
+	padding: 0 4px;
+	border-right: 1px solid gray;
+}
+#erweimadaohang li a:link{
+	color: rgb(65,65,65);
+}
+#erweimadaohang li#last{
+	border-right: 0;
+}
+#right01{
+	width: 250px;
+	height: 64px;
+	border:2px solid rgb(221,221,221);
+	border-right-color: rgb(153,217,234);
+	border-bottom-color: rgb(153,217,234);
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px -2px pink inset,5px 5px 10px #000,10px 10px rgb(0,128,64);
+	position: fixed;
+	right: 0;
+	bottom: 50%;
+	margin-bottom: -32px;
+	text-align: center;
+	line-height: 32px;
+}
+#span1{
+	display: block;
+	width: 850px;
 }
 footer{
-	border:1px solid #bce9e2;
-	position: fixed;
-	top: 92%;
-}
-span{
-	position: fixed;
-	top: 93%;
-	left: 24%;
-}
-strong{
-	font-weight: normal;
-}
-p{
-	width: 180px;
-	height:190px;
-	border:1px solid rgb(128,128,0);
-	padding: 25px;
-	border-radius: 10%;
-	box-shadow: 2px 2px 4px -2px blue inset,5px 5px 10px #000,10px 10px rgb(64,128,128);
-	color: rgb(64,128,128);
-}
-#left{
-	position:fixed;
-	top: 180px;
-	background-image: url(images/qing.png);
-}
-#left1{
-	position: fixed;
-	top: 420px;
-	background-image: url(images/hai.png);
-}
-#right{
-	position: fixed;
-	top: 180px;
-	left: 84%;
-	background-image: url(images/nei.png);
-}
-#right1{
-	position: fixed;
-	top: 420px;
-	left: 84%;
-	background-image: url(images/meng.png);
+	display: block;
 }
 logo{
-	display: block;
+	display: inline-block;
 	width: 341px;
 	padding-top: 109px;
 	height: 0px;
@@ -69,58 +127,84 @@ logo{
 	background-image: url(css/images02.jpg);
 	background-size: 80%;
 	background-repeat: no-repeat;
-	position: fixed;
-	top: 93%;
+	float: left;
+}
+#span2{
+	display: inline-block;
 }
 </style>
 </head>
-<body style="height: 1000px">
-	<audio src="music/thatgirl.mp3" controls loop autoplay hidden="true"></audio>
+<body>
+	<audio src="music/우주를+줄게.mp3" controls loop autoplay hidden="true"></audio>
 	<top>LSgoin社区</top>
-	<div id="box1">
-		<a href="trip.html" target="_blank">
-			<img src="media/dongtu01.gif" class="img2">
-		</a>
-	</div>
-	<div id="box2">
-		<header>
-		<nav>
+	<header>
+		<div id="menu">
 			<ul>
-				<li><a href="https://LLLniqun.github.io/">首页</a></li>
-				<li><a href="https://movie.douban.com/top250" target="_blank">推荐电影(film)</a></li>
-				<li><a href="https://book.douban.com/top250" target="_blank">推荐书刊(book)</a></li>
-				<li><a href="trip.html" target="_blank">旅行(trip)</a></li>
-				<li><a href="视频.html">视频(video)</a></li>
+				<li class="first">导航</li>
+				<li><a href="LSgoing.html" target="_blank">LSgoing社区</a></li>
+				<li><a href="https://movie.douban.com/top250" target="_blank">推荐电影</a></li>
+				<li><a href="https://book.douban.com/top250" target="_blank">推荐书刊</a></li>
+				<li><a href="trip.html" target="_blank">旅行</a></li>
+				<li><a href="视频.html">视频</a></li>
 				<li><a href="http://csujwc.its.csu.edu.cn/" target="_blank">中南教管</a></li>
 				<li><a href="http://gip.its.csu.edu.cn/" target="_blank">地信之家</a></li>
-				<li><a href="homework.html" target="_blank">自学作业</a></li>
+				<li class="last"><a href="homework.html" target="_blank">自学作业</a></li>
 			</ul>
-		</nav>
-		</header>
-	</div>
-	<div class="middle">
-		<p id="left">1.骑行是游青海湖的最佳方式，当地有很多可以租借自行车的车行。（4~5天）<br><br>2.七，八月份是去青海湖的最好时节，这里夏季十分凉爽，即使艳阳高照平均温度也只有15度左右。
-		</p>
-		<p id="left1">3.沿途会有许多骑友，看到他们记得竖起你的大拇指，说一句“加油！”，可以体会到人与人之间的美好。<br><br>4.当地藏民还是很淳朴的，请尊重他们的习惯以及信仰。请对路上遇到的人怀上敬意和善意。</p>
-		<p id="right">1.内蒙古，简称“蒙”。内蒙古自治区，首府呼和浩特市。内蒙古横跨中国东北、华北、西北三大地区，接邻八个省区，是中国邻省较多的省级行政区之一。<br><br>2.自驾游的好处就是可以随走随停，安营扎寨。</p>
-		<p id="right1">3.内蒙古资源储量丰富，有“东林西矿、南农北牧”之称，草原、森林和人均耕地面积居全中国第一，稀土金属储量居世界首位，同时也是中国最大的草原牧区。<br><br>4.内蒙古是个好地方，欢迎您的前来~</p>
-	</div>
-	<div id="box3">
-		<footer>
+		</div>
+		<div id="enter">
+			<form method="post" action="register.action">
+				用户名：<input type="text" name="username" pattern="^[a-zA-Z]\w{2,7}" title="必须以字母开头，包含字符或数字，长度是3~8" placeholder="请输入您的用户名" class="input">&nbsp;&nbsp;
+				密码：<input type="password" name="password" pattern="\d{6}" title="必须输入6个数字" placeholder="请输入您的密码" class="input">&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="submit" value="登录" class="sub">
+				<p id="p1">若您还没有账号，请点击：<input type="reset" value="立即注册" class="sub"><br>
+				若您忘记密码了，请点击：<input type="reset" value="忘记密码" class="sub"></p>
+			</form>
+		</div>
+	</header>
+	<section>
+		<div id="middle">
+			<img src="images/index.png" id="img1" alt="" usemap="#index" />
+			<map name="index">
+				<area shape="rect" coords="250,16,430,120" href="LSgoing.html" title="LSgoing社区">
+				<area shape="circle" coords="131,90,63" href="trip.html" target="_blank" title="旅行(trip)">
+				<area shape="circle" coords="85,410,63" href="视频.html" target="_blank" title="视频(video)">
+				<area shape="circle" coords="400,385,63" href="homework.html" target="_blank" title="作业(homework)" >
+				<area shape="circle" coords="255,255,120" href="LSgoing.html" title="LSgoing社区">
+			</map>
+			<a href="LSgoing.html" target="_blank">LSgoing社区</a>︱
+			<a href="https://movie.douban.com/top250" target="_blank">推荐电影(film)</a>︱
+			<a href="https://book.douban.com/top250" target="_blank">推荐书刊(book)</a>︱
+			<a href="trip.html" target="_blank">旅行(trip)</a>︱
+			<a href="视频.html">视频(video)</a>︱
+			<a href="http://csujwc.its.csu.edu.cn/" target="_blank">中南教管</a>︱
+			<a href="http://gip.its.csu.edu.cn/" target="_blank">地信之家</a>︱
+			<a href="homework.html" target="_blank">自学作业</a>
+		</div>
+	</section>
+	<aside>
+		<div id="left01">
+			<h3>快速安全登陆</h3>
+			<p id="p2">请使用 <a href="#" target="_blank">LSgoing社区手机端</a>扫描二维码，或点击头像授权登陆。</p>
+			<p id="p3"><img src="images/erweima.png" id="erweima"><img src="images/touxiang.png" id="touxiang">xxxxxxxxxx</p>
+			<p id="p4">
+				<ul id="erweimadaohang">
+					<li><a href="#">账号密码登陆</a></li>
+					<li><a href="#">注册账号</a></li>
+					<li id="last"><a href="#">反馈</a></li>
+				</ul>
+			</p>
+		</div>
+		<div id="right01">
+			<p id="p5"><a href="bgm.html" target="_blank">BGM下载</a></p>
+		</div>
+	</aside>
+	<footer>
+		<span id="span1">
+			<br>
 			<logo>LSgoing社区</logo>
-			<span>
-				<a href="https://LLLniqun.github.io/">首页</a>︱
-				<a href="https://movie.douban.com/top250" target="_blank">推荐电影(film)</a>︱
-				<a href="https://book.douban.com/top250" target="_blank">推荐书刊(book)</a>︱
-				<a href="trip.html" target="_blank">旅行(trip)</a>︱
-				<a href="视频.html">视频(video)</a>︱
-				<a href="http://csujwc.its.csu.edu.cn/" target="_blank">中南教管</a>︱
-				<a href="http://gip.its.csu.edu.cn/" target="_blank">地信之家</a>︱
-				<a href="homework.html" target="_blank">自学作业</a>
-				<br /><br />
-				<strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong>
-			</span>
-		</footer>
-	</div>
+			<br>
+			<span id="span2"><strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong></span>
+		</span>
+	</footer>
 </body>
 </html>

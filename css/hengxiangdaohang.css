@@ -1,0 +1,34 @@
+/*body{
+	margin:10px;
+	font-size: 12px;
+	text-align: center;
+	font-family: Verdana,Geneva,sans-serif;
+}*/
+#menu{
+	width: 700px;
+	margin-right: -8px;
+	overflow: hidden;
+	position:absolute;
+	right: 0;
+	top: 78px;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	background-color: pink;
+	list-style-type: none;
+	text-align: center;
+}
+#menu ul li{
+	display: inline;
+	padding: 0px 6px;
+	line-height: 36px;
+	border-right: 1px solid pink;
+}
+#menu ul li.first{
+	color: white;
+	font-size: 24px;
+}
+#menu ul li.last{
+	border-right: 0px;
+}

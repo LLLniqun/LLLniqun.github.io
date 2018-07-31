@@ -1,0 +1,27 @@
+#enter{
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-family: "微软雅黑";
+}
+.input{
+	border:1px solid pink;
+	border-radius: 10px;
+	background-color: #bce9e2;
+	font-family: "微软雅黑";
+}
+.sub{
+	width: 100px;
+	background-color: #bce9e2;
+	border:1px solid gray;
+	border-radius: 4px;
+	font-family: "微软雅黑";
+}
+.sub:hover{
+	color: gray;
+	text-decoration: underline;
+}
+#p1{
+	margin-top: 8px;
+}
