@@ -153,6 +153,7 @@ footer{
 	z-index: -1;
 	left: 0;
 	bottom: 0;
+	width: 100%;
 }
 #span1{
 	display: block;
@@ -168,7 +169,6 @@ logo{
 	background-size: 80%;
 	background-repeat: no-repeat;
 	float: left;
-	vertical-align: text-bottom;
 }
 #span2{
 	display: inline-block;
@@ -176,8 +176,21 @@ logo{
 	padding-top: 8px;
 }
 #span3{
-	display: block;
-	width: 1200px;
+	margin-top: 25px;
+}
+#span3 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#span3 ul li{
+	display: inline;
+	line-height: 36px;
+	padding: 0 12px;
+	border-right:  1px solid gray;
+}
+#span3 ul li.last{
+	border-right: 0;
 }
 </style>
 </head>
@@ -244,16 +257,17 @@ logo{
 	<footer>
 		<span id="span1">
 			<logo>LSgoing社区</logo>
-			<br>
 			<span id="span3">
-				<a href="LSgoing.html" target="_blank">LSgoing社区</a>︱
-				<a href="https://movie.douban.com/top250" target="_blank">推荐电影(film)</a>︱
-				<a href="https://book.douban.com/top250" target="_blank">推荐书刊(book)</a>︱
-				<a href="trip.html" target="_blank">旅行(trip)</a>︱
-				<a href="视频.html">视频(video)</a>︱
-				<a href="http://csujwc.its.csu.edu.cn/" target="_blank">中南教管</a>︱
-				<a href="http://gip.its.csu.edu.cn/" target="_blank">地信之家</a>︱
-				<a href="homework.html" target="_blank">自学作业</a>
+				<ul>
+					<li><a href="LSgoing.html" target="_blank">LSgoing社区</a></li>
+					<li><a href="https://movie.douban.com/top250" target="_blank">推荐电影(film)</a></li>
+					<li><a href="https://book.douban.com/top250" target="_blank">推荐书刊(book)</a></li>
+					<li><a href="trip.html" target="_blank">旅行(trip)</a></li>
+					<li><a href="视频.html">视频(video)</a></li>
+					<li><a href="http://csujwc.its.csu.edu.cn/" target="_blank">中南教管</a></li>
+					<li><a href="http://gip.its.csu.edu.cn/" target="_blank">地信之家</a></li>
+					<li class="last"><a href="homework.html" target="_blank">自学作业</a></li>
+				</ul>
 			</span>
 			<span id="span2"><strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong></span>
 		</span>
