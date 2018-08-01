@@ -1,7 +1,12 @@
-#span1{
+footer{
 	position: absolute;
+	z-index: -1;
 	left: 0;
 	bottom: 0;
+}
+#span1{
+	display: block;
+	width: 850px;
 }
 logo{
 	display: inline-block;
