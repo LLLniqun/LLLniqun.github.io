@@ -4,7 +4,6 @@
 <meta charset="utf-8"/>
 <title>旅行(trip) 首页-LLLniqun.github.io/ </title>
 <link rel="stylesheet" type="text/css" href="css/background01.css">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/a.css">
 <style>
 div{
@@ -37,6 +36,28 @@ li{
 	margin: 0;
 	margin-bottom: 25px;
 }
+#span1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+logo{
+	display: inline-block;
+	width: 341px;
+	padding-top: 109px;
+	height: 0px;
+	overflow: hidden;
+	background-image: url(css/images02.jpg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	float: left;
+	vertical-align: text-bottom;
+}
+#span2{
+	display: inline-block;
+	line-height: 36px;
+	padding-top: 8px;
+}
 </style>
 </head>
 <body>
@@ -48,8 +69,10 @@ li{
 		</ul>
 	</div>
 	<footer>
-		<logo>LSgoing社区</logo>
-		<strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong>
+		<span id="span1">
+			<logo>LSgoing社区</logo>
+			<span id="span2"><strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong></span>
+		</span>
 	</footer>
 </body>
 </html>

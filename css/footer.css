@@ -1,16 +1,22 @@
-strong{
-	font-weight: normal;
-	left: 30%;
-	position: fixed;
-	top: 93%;
+#span1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
 logo{
-	display: block;
+	display: inline-block;
 	width: 341px;
-	padding-top: 104px;
+	padding-top: 109px;
 	height: 0px;
 	overflow: hidden;
 	background-image: url(images02.jpg);
-	position: fixed;
-	top: 90%;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	float: left;
+	vertical-align: text-bottom;
+}
+#span2{
+	display: inline-block;
+	line-height: 24px;
+	padding-top: 8px;
 }
