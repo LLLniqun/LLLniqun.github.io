@@ -1,12 +1,13 @@
 footer{
 	position: absolute;
-	z-index: -1;
+	z-index: -2;
 	left: 0;
 	bottom: 0;
+	width: 100%;
 }
 #span1{
 	display: block;
-	width: 850px;
+	width: 100%;
 }
 logo{
 	display: inline-block;
@@ -18,10 +19,23 @@ logo{
 	background-size: 80%;
 	background-repeat: no-repeat;
 	float: left;
-	vertical-align: text-bottom;
 }
 #span2{
 	display: inline-block;
 	line-height: 24px;
 	padding-top: 8px;
+}
+#span3 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#span3 ul li{
+	display: inline;
+	line-height: 36px;
+	padding-right: 6px;
+	border-right:  1px solid gray;
+}
+#span3 ul li.last{
+	border-right: 0;
 }

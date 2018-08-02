@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>多个不同高度同方向浮动卡住现象</title>
+<style>
+body{
+	margin: 0;
+}
+div{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#father{
+	width: 800px;
+	height: 400px;
+	border:1px solid pink;
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -200px;
+}
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,{
+	float: left;
+	padding: 20px;
+	background-color: rgb(153,217,234);
+	border:1px solid pink;
+}
+</style>
+</head>
+<body>
+	<div id="father">
+		<div id="box1">number1</div>
+		<div id="box2">number2</div>
+		<div id="box3">number3</div>
+		<div id="box4">number4</div>
+		<div id="box5">number5</div>
+	</div>
+</body>
+</html>
