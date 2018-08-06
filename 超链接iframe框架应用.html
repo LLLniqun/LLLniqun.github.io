@@ -2,32 +2,11 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>LSgoing社区 首页-LLLniqun.github.io/ </title>
+<title>iframe框架应用 首页-LLLniqun.github.io/ </title>
 <link rel="stylesheet" type="text/css" href="css/background01.css">
-<link rel="stylesheet" type="text/css" href="css/a.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/a.css">
 <style>
-p{
-	width: 100px;
-	padding: 25px;
-	background-color: pink;
-	color: rgb(113,165,242);
-	position: fixed;
-	top: 50%;
-	margin-top: -50px;
-}
-.shipin{
-	width: 50%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-left: -250px;
-	margin-top: -200px;
-}
-strong{
-	font-weight: normal;
-	left: 19%;
-}
 
 </style>
 </head>
@@ -53,7 +32,15 @@ strong{
 			<span id="span2"><strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong></span>
 		</span>
 	</footer>
-	<p>&copy;本视频来自湖南省衡阳市正源学校2018级毕业生组的乐团SAHF(站长记忆模糊了~）之作</p>
-	<video src="music/IMG_1066.mov" controls loop autoplay class="shipin"></video>
+	<section>
+		<h2>使用内联框架作超链接的目标窗口：</h2>
+		<div align="center">
+			<iframe src="视频.html" name="iframe" width="800" height="400" marginheight="30" marginwidth="30"></iframe>
+		</div>
+		<p align="center">
+			<a href="https://LLLniqun.github.io/" target="iframe">首页</a>
+			<a href="视频.html" target="iframe">视频</a>
+		</p>
+	</section>
 </body>
 </html>
