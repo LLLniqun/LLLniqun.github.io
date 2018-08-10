@@ -1,9 +1,9 @@
-ul{
+nav ul{
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
-li{
+nav li{
 	width: 12.5%;
 	line-height: 250%;
 	text-align: center;

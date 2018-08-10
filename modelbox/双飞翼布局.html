@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>双飞翼布局</title>
+<style>
+body{
+	text-align: center;
+	font-size: 20px;
+	margin:0;
+}
+.wrap{
+	margin:0 auto;
+}
+#midContainer{
+	width: 100%;
+	float: left;
+}
+#middle{
+	height: 750px;
+	background-color: rgb(157,213,234);
+	margin:0 150px;
+}
+#left{
+	float: left;
+	width: 150px;
+	height: 750px;
+	background-color: pink;
+	margin-left: -100%;
+}
+#right{
+	float: left;
+	width: 150px;
+	height: 750px;
+	background-color: pink;
+	margin-left: -150px;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<!--#middle必须放在#left和#right元素的前面-->
+		<div id="midContainer">
+			<section id="middle">#middle</section>
+		</div>
+		<aside id="left">#left</aside>
+		<aside id="right">#right</aside>
+	</div>
+</body>
+</html>

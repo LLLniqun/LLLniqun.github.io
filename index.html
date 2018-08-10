@@ -7,8 +7,9 @@
 <title>LSgoing网站 首页-LLLniqun.github.io/ </title>
 <link rel="stylesheet" type="text/css" href="css/hengxiangdaohang.css">
 <link rel="stylesheet" type="text/css" href="css/a.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
 <style>
-body{
+/*body{
 	background-color: rgb(153,217,234);
 }
 top{
@@ -189,10 +190,13 @@ logo{
 #span3 ul li.last{
 	border-right: 0;
 }
+input:focus{
+	outline: red dotted thin;
+}*/
 </style>
 </head>
 <body>
-	<audio src="music/우주를+줄게.mp3" controls loop autoplay hidden="true"></audio>
+	<audio src="music/Sofia.mp3" controls loop autoplay hidden="true"></audio>
 	<header>
 		<top>LSgoin社区</top>
 		<div id="menu">
@@ -209,9 +213,9 @@ logo{
 			</ul>
 		</div>
 		<div id="enter">
-			<form method="post" action="register.action">
-				用户名：<input type="text" name="username" pattern="^[a-zA-Z]\w{2,7}" title="必须以字母开头，包含字符或数字，长度是3~8" placeholder="请输入您的用户名" class="input">&nbsp;&nbsp;
-				密码：<input type="password" name="password" pattern="\d{6}" title="必须输入6个数字" placeholder="请输入您的密码" class="input">&nbsp;&nbsp;&nbsp;&nbsp;
+			<form method="post" action="index.html">
+				用户名：<input type="text" name="username" pattern="^[a-zA-Z]\w{2,7}" title="必须以字母开头，包含字符或数字，长度是3~8" placeholder="请输入您的用户名" class="input" autofocus required>&nbsp;&nbsp;
+				密码：<input type="password" name="password" pattern="\d{6}" title="必须输入6个数字" placeholder="请输入您的密码" class="input" required>&nbsp;&nbsp;&nbsp;&nbsp;
 				<input type="submit" value="登录" class="sub">
 				<p id="p1">若您还没有账号，请点击：<input type="reset" value="立即注册" class="sub"><br>
 				若您忘记密码了，请点击：<input type="reset" value="忘记密码" class="sub"></p>
@@ -249,6 +253,7 @@ logo{
 		</div>
 		<div id="right01">
 			<p id="p5"><a href="bgm.html">BGM</a></p>
+			<p id="p6"><a href="model.html" target="_blank">模板</a></p>
 		</div>
 	</aside>
 	<footer>
