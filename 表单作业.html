@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>表单作业</title>
+<link rel="stylesheet" type="text/css" href="css/background01.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<link rel="stylesheet" type="text/css" href="css/a.css">
+<style>
+#box1{
+	width: 900px;
+	height: 400px;
+	background-image: url(images/biaodan.jpeg);
+	background-size: 900px 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -450px;
+	margin-top: -250px;
+}
+#box11{
+	width: 300px;
+	height: 260px;
+	position: absolute;
+	top: 50%;
+	margin-top: -130px;
+}
+#box12{
+	width: 300px;
+	height: 260px;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -130px;
+}
+#box13{
+	width: 100px;
+	height: 55px;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 8%;
+	margin-bottom: -
+}
+#box11 form{
+	float: right;
+	margin:3px auto;
+}
+#box12 form{
+	margin:3px auto;
+}
+#sex{
+	position: relative;
+	right: 85px;
+}
+.input{
+	width: 159px;
+	height: 25px;
+	border:1px solid gray;
+	font-family: "微软雅黑";
+}
+.xialaliebiao{
+	height: 25px;
+	border:1px solid gray;
+}
+.bir{
+	width: 49px;
+	height: 25px;
+	border:1px solid gray;
+	font-family: "微软雅黑";
+}
+</style>
+</head>
+<body>
+	<header>
+		<top>LSgoin社区</top>
+	</header>
+	<footer>
+		<span id="span1">
+			<logo>LSgoing社区</logo>
+			<span id="span3">
+				<ul>
+					<li><a href="https://LLLniqun.github.io/ ">首页</a></li>
+					<li><a href="https://movie.douban.com/top250">推荐电影</a></li>
+					<li><a href="https://book.douban.com/top250">推荐书刊</a></li>
+					<li><a href="trip.html">旅行</a></li>
+					<li><a href="视频.html">视频</a></li>
+					<li><a href="http://csujwc.its.csu.edu.cn/">中南教管</a></li>
+					<li><a href="http://gip.its.csu.edu.cn/">地信之家</a></li>
+					<li class="last"><a href="homework.html">自学作业</a></li>
+				</ul>
+			</span>
+			<span id="span2"><strong>&copy;由于自学能力有限，难免会有不妥之处，望指点！<br /> 2018-2018 LLLNIQUN.GITHUB.IO/ 版权所有</strong></span>
+		</span>
+	</footer>
+	<section>
+		<div id="box1">
+			<div id="box11">
+				<form id="message1">
+					昵称:<input type="text" name="username" pattern="^[a-zA-Z]\w{2,7}" title="必须以字母开头，包含字符或数字，长度是3~8" placeholder="请输入您的昵称" autofocus required class="input">
+				</form>
+				<form id="message2">
+					真实姓名:<input type="text" name="usertruename" pattern="^[a-zA-Z]\w{2,7}" title="必须是您的真实姓名" placeholder="请输入您的真实姓名" autofocus required class="input"><br>
+				</form>
+				<form id="where">
+					所在地:
+					<select name="station1"
+					class="xialaliebiao">
+						<option value="Beijing">北京</option>
+						<option value="Shanghai">上海</option>
+						<option value="Guangzhou">广州</option>
+						<option value="Hunan">湖南</option>
+						<option value="Another">其他地区</option>
+					</select>
+					<select name="station2" class="xialaliebiao">
+						<option value="1">北京市</option>
+						<option value="2">上海市</option>
+						<option value="3">广州市</option>
+						<option value="4">长沙</option>
+						<option value="5">其他地区</option>
+					</select>
+				</form>
+				<form id="sex">
+					性别:
+					<label><input type="radio" name="sex" value="男" class="sex1">男</label>
+					<label><input type="radio" name="sex" value="女" class="sex1">女</label>
+				</form>
+				<form id="birthday">
+					生日:
+					<input type="text" name="year" pattern="\d{6}" title="请输入年份" placeholder="年" required class="bir">
+					<input type="text" name="month" pattern="\d{6}" title="请输入月份" placeholder="月" required class="bir">
+					<input type="text" name="day" pattern="\d{6}" title="请输入日" placeholder="日" required class="bir">
+				</form>
+				<form id="youxiang">
+					常用邮箱:LLLniqun@163.com
+					<input type="button" name="更改" value="更改">
+				</form>
+				<form id="qq">
+					QQ号码:
+					<input type="text" name="QQ号码" pattern="\d{6}" title="请输入您常用的QQ号码" placeholder="请输入您的QQ" class="input button" required>
+				</form>
+			</div>
+			<div id="box12">
+				<form id="introduction">
+					个人介绍:
+					<textarea name="gerenjieshao" rows="8" cols="25"></textarea>
+				</form>
+				<br>
+				以下信息可选择进行填写
+				<form id="ewaixinxi">
+					<form id="message3">
+					证件类型:
+					<select name="zhengjianleixing">
+						<option value="Shenfenzheng">身份证</option>
+						<option value="Zanzhuzheng">暂住证</option>
+						<option value="Huzhao">护照</option>
+					</select>
+				</form>
+				<form id="message4">
+					证件号码:<input type="text" name="usertruename" pattern="^[a-zA-Z]\w{2,7}" title="" placeholder="请输入证件号码" required class="input"><br>
+				</form>
+			</div>
+			<div id="box13">
+				<form id="baocun">
+					<input type="image" name="保存" src="images/baocun.png" alt="保存" width="100px" height="25px">
+				</form>
+				<form id="quxiao">
+					<input type="image" name="保存" src="images/quxiao.png" alt="保存" width="100px" height="25px">
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
